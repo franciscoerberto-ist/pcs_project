@@ -1,0 +1,225 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║        📚 MATERIAL COMPLETO PARA DISCIPLINA DE PROGRAMAÇÃO CLIENTE SERVIDOR  ║
+║                                                                              ║
+║                     03 DE MAIO DE 2026 - ELABORADO COM SUCESSO             ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 RESUMO DO QUE FOI CRIADO
+
+📁 ARQUIVOS PRINCIPAIS:
+
+1. ✅ PROPOSTA_PROJETO_FINAL_v2.md (REFINADA)
+   └─ Proposta SEM GameTracker (que é usado nas aulas para treino)
+   └─ 6 alternativas de projetos:
+      • Sistema de Biblioteca 📚 (Recomendada)
+      • Sistema de Reservas de Hotéis 🏨
+      • Sistema de Gerenciar Tarefas 📊
+      • Sistema de Ecommerce 🛒
+      • Sistema de Agendamento de Consultas 👨‍⚕️
+      • Seu próprio projeto ✨
+
+2. ✅ GUIA_IMPLEMENTACAO_PROJETO.md
+   └─ Guia passo a passo de implementação
+   └─ Setup, Maven, Entidades, Controllers, Services
+   └─ Testes com exemplos práticos
+
+3. ✅ Semana_1_Completa_MODEL.pptx (13 slides)
+   └─ Apresentação profissional
+   └─ Aula 1, 2 e 3 com código
+
+4. ✅ SEMANA_1_GUIA_ESTUDO.md (~3000 palavras)
+   └─ Estudo aprofundado de Model
+
+5. ✅ Documentação complementar
+   └─ Índices, resumos, checklists
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 RUBRIA DE AVALIAÇÃO DO PROJETO (100 PONTOS)
+
+Implementação:        40 pts (Entidades, Relacionamentos, Controllers, Services)
+Qualidade de Código:  25 pts (Validações, Erros, DTOs, Padrões)
+Testes:              15 pts (Unitários, Integração, Cobertura >70%)
+Documentação:        12 pts (Swagger, README, Comentários, Exemplos)
+GitHub & Apresentação: 8 pts (Commits, Demo ao vivo)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🚀 OPÇÕES DE PROJETOS (SEM GameTracker)
+
+1. 📚 SISTEMA DE BIBLIOTECA (Recomendada)
+   Entidades: Livro, Autor, Categoria, Empréstimo, Usuário, Avaliação
+   Funcionalidades: CRUD, Empréstimos, Filtros, Multas por atraso
+   Relacionamentos: ManyToOne, OneToMany
+
+2. 🏨 SISTEMA DE RESERVAS DE HOTÉIS
+   Entidades: Hotel, Quarto, Hóspede, Reserva, Serviço
+   Funcionalidades: Buscar quartos, Criar reservas, Calcular total
+   Relacionamentos: ManyToOne, OneToMany
+
+3. 📊 GERENCIAR TAREFAS DE PROJETO
+   Entidades: Projeto, Tarefa, Usuário, Comentário, Anexo, Atribuição
+   Funcionalidades: CRUD, Atribuições, Comentários, Filtros
+   Relacionamentos: ManyToOne, OneToMany, ManyToMany
+
+4. 🛒 ECOMMERCE SIMPLIFICADO
+   Entidades: Produto, Categoria, Cliente, Pedido, ItemPedido, Avaliação
+   Funcionalidades: CRUD, Pedidos, Carrinho, Avaliações
+   Relacionamentos: ManyToOne, OneToMany
+
+5. 👨‍⚕️ AGENDAMENTO DE CONSULTAS
+   Entidades: Médico, Paciente, Consulta, Especialidade, Receita
+   Funcionalidades: Agendar, Cancelar, Emitir receitas
+   Relacionamentos: ManyToOne, OneToMany
+
+6. ✨ SEU PRÓPRIO PROJETO
+   Basta ter: 4+ entidades, 2+ relacionamentos, 10+ endpoints REST
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎬 MODELO DE APRESENTAÇÃO (10-15 MINUTOS)
+
+Estrutura:
+  1. Introdução (1-2 min)     - Nome, objetivo, integrantes
+  2. Arquitetura (2 min)      - Estrutura MVC
+  3. Demo Prática (5-7 min)   - Endpoints funcionando
+  4. Qualidade (2-3 min)      - Testes e validações
+  5. Documentação (1 min)     - Swagger e GitHub
+  6. Conclusão (1 min)        - Resumo
+
+Incluído: Roteiro prático com exemplos de requisições!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📚 GUIA GITHUB COMPLETO
+
+✅ Como criar repositório
+✅ Configurar Git localmente
+✅ Preparar .gitignore
+✅ Estruturar arquivos
+✅ Adicionar README.md
+✅ Workflow de desenvolvimento
+✅ Estrutura de commits (conventional commits)
+✅ Checklist antes de entregar
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✨ PRINCIPAIS CARACTERÍSTICAS DA PROPOSTA v2
+
+✅ SEM GameTracker (que é usado para treino em aula)
+✅ 6 alternativas de projetos realistas
+✅ Rubria clara e detalhada (100 pontos)
+✅ Modelo de apresentação com roteiro prático
+✅ Guia GitHub passo a passo
+✅ FAQ completo
+✅ Benefício: Substitui prova final (nota do projeto = nota da avaliação)
+✅ Cronograma realista (5 semanas)
+✅ Requisitos técnicos claros
+✅ Estrutura de projeto recomendada
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎁 BENEFÍCIO PARA O ALUNO
+
+Se o grupo apresentar o projeto:
+  ✅ NÃO precisa fazer a 3ª avaliação (prova final)
+  ✅ Nota do projeto = Nota da avaliação
+  ✅ Pré-requisito: Nota ≥ 60 (para passar)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📅 CRONOGRAMA INTEGRADO
+
+Semana 1 (03-09 mai):    Forma grupo + Escolhe projeto + Setup
+Semana 2 (10-16 mai):    Entidades + Controllers básicos
+Semana 3 (17-23 mai):    Services + Validações + Testes
+Semana 4 (24-30 mai):    Testes + Documentação
+Semana 5 (27-31 mai):    APRESENTAÇÕES
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🏆 NÍVEIS DE PROJETO
+
+Nível Básico (60-70):
+  4 entidades, CRUD básico, poucas validações
+
+Nível Intermediário (70-85):
+  5+ entidades, CRUD completo, validações, testes >50%
+
+Nível Avançado (85-100):
+  5+ entidades, CRUD + filtros, validações custom, testes >70%
+  Global Exception Handler, DTOs, Paginação, Segurança, Cache
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📋 REQUISITOS TÉCNICOS
+
+Obrigatório:
+  ✓ Java 17+, Spring Boot 3.x, Maven/Gradle
+  ✓ JPA/Hibernate, H2/PostgreSQL
+  ✓ Git + GitHub
+
+Esperado (alta nota):
+  ✓ Bean Validation + Custom Validators
+  ✓ @ControllerAdvice Global
+  ✓ Swagger
+  ✓ JUnit 5 + Mockito (>70% cobertura)
+  ✓ DTOs
+  ✓ Paginação
+  ✓ README completo
+
+Bônus (nota máxima):
+  ✓ Spring Security
+  ✓ Cache (@Cacheable)
+  ✓ Auditoria (@CreationTimestamp)
+  ✓ Soft Delete
+  ✓ PATCH endpoints
+  ✓ Busca avançada
+  ✓ GitHub Actions (CI/CD)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ CHECKLIST FINAL
+
+Material criado:
+  [✓] Proposta refinada (SEM GameTracker)
+  [✓] 6 opções de projetos
+  [✓] Rubria de avaliação (100 pts)
+  [✓] Modelo de apresentação com roteiro
+  [✓] Guia GitHub completo
+  [✓] Guia de implementação
+  [✓] FAQ
+  [✓] Timeline
+  [✓] Exemplos e templates
+
+Para usar:
+  1. Compartilhe PROPOSTA_PROJETO_FINAL_v2.md com alunos
+  2. Alunos escolhem projeto até 06 de maio
+  3. Alunos implementam semanas 1-4
+  4. Alunos apresentam semana de 27-31 maio
+  5. Quem apresenta não faz prova!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎉 VOCÊ ESTÁ 100% PRONTO!
+
+Todos os materiais estão em /mnt/user-data/outputs/
+
+Principais arquivos para os alunos:
+  • PROPOSTA_PROJETO_FINAL_v2.md (leia primeiro!)
+  • GUIA_IMPLEMENTACAO_PROJETO.md
+  • Semana_1_Completa_MODEL.pptx
+  • SEMANA_1_GUIA_ESTUDO.md
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Semestre 2026.1 - Programação Cliente Servidor
+Estratégia: Deep Dive nas Camadas MVC com Projeto Prático Final
+Data: 03 de maio de 2026
+
+🚀 BOA SORTE COM A DISCIPLINA!
+

@@ -1,0 +1,18 @@
+services:
+  loja:
+    build: .                    # usa o Dockerfile na raiz do projeto
+    container_name: exemplo-loja
+    ports:
+      - "8080:8080"             # host:container
+    environment:
+      # Sobrescreve o application.yml dentro do container
+      SPRING_DATASOURCE_URL: jdbc:h2:mem:lojademo
+      SPRING_DATASOURCE_USERNAME: sa
+      SPRING_DATASOURCE_PASSWORD: ""
+      SPRING_H2_CONSOLE_ENABLED: "true"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/v1/categorias"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
